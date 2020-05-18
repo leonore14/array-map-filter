@@ -26,7 +26,9 @@ Expected OUTPUT for this sample:
 */
 
 function keepStarks(names) {
-}
+  return names.filter((word) => word.endsWith('Stark'));
+  console.log(keepStarks);
+};
 
 // DON'T TOUCH THIS!
 module.exports = keepStarks;
